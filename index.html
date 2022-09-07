@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- img  обовязково вводити alt -->
+   <!--  -->
+
+   <meta name="description" content="ввести коротку інформацію про сайт">
+   <meta name="keywords" content="ввести ключові слова до 10 шт">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.css">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/jquery.fancybox.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Vet</title>
+</head>
+
+<body>
+
+   <header class="header ">
+      <div class="container">
+         <div class="header__menu">
+            <a href="#" class="header__logo "><img src="img/header/logo.svg" alt="">
+               <p class="header__logo-text"> Dog Doctor</p>
+            </a>
+            <nav class="menu">
+               <ul class="menu__list ">
+                  <li class="menu__item"><a href="#service" class="menu__link">Послуги</a></li>
+                  <li class="menu__item"><a href="#clinik" class="menu__link">Клініка</a></li>
+                  <li class="menu__item"><a href="#doctor" class="menu__link">Лікарі</a></li>
+                  <li class="menu__item"><a href="#question" class="menu__link">Питання</a></li>
+                  <li class="menu__item"><a href="#contact" class="menu__link">Контакти</a></li>
+               </ul>
+               <div class="hamburger">
+                  <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+               </div>
+            </nav>
+            <a href="tel: 38067 00 00 000" class="header__tel"><img src="img/header/tel.svg" alt="">
+               <p>+38 (067) 000 00 00</p>
+            </a>
+         </div>
+      </div>
+   </header>
+
+   <section class="headertop">
+      <div class="container">
+         <div class="headertop__inner">
+            <div class="headertop__adress">&#9906; Вінниця. вул.Вінницька 1</div>
+            <h1 class="headertop__title">Ветеринарна клініка для собак</h1>
+            <p class="headertop__subtitle">Планова та екстренна допомога вашим четверолапим улюбленцям</p>
+
+            <div class="headertop__b">
+               <a href="#form" class="headertop__btn btn">Записатись на прийом</a>
+               <a href="#form" class="headertop__btn btn">Викликати лікаря</a>
+            </div>
+
+            <div class="headertop__botom">
+
+               <div class="headertop__botom-item">
+                  <img src="img/header/11.png" alt="">
+                  <p>Цілодобовий прийом в клініці</p>
+               </div>
+               <div class="headertop__botom-item">
+                  <img src="img/header/22.png" alt="">
+                  <p>Виклик лікаря до дому</p>
+               </div>
+               <div class="headertop__botom-item">
+                  <img src="img/header/33.png" alt="">
+                  <p>Досвідчений персонал</p>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <div class="service" id="service">
+      <div class="container">
+         <div class="service__title title">Наші послуги</div>
+         <div class="service__slider">
+
+            <div class="service__items">
+               <div class="service__item">
+                  <div class="service__item-title">Терапія</div>
+                  <div class="service__item-text">Діагностика та лікування захворювань без хірургічного втручання</div>
+                  <div class="service__item-price">від 750 грн</div>
+                  <a href="#form" class="service__item-btn btn">Записатись</a>
+               </div>
+
+               <div class="service__item">
+                  <div class="service__item-title">Вакцинація</div>
+                  <div class="service__item-text">Захистіть свого улюбленця від багатьох інфекційних захворювань</div>
+                  <div class="service__item-price">від 1000 грн</div>
+                  <a href="#form" class="service__item-btn btn">Записатись</a>
+               </div>
+
+               <div class="service__item">
+                  <div class="service__item-title">Стоматологія</div>
+                  <div class="service__item-text">Лікуємо прості та важкі запалення ротової порожнини та зубів</div>
+                  <div class="service__item-price">від 750 грн</div>
+                  <a href="#form" class="service__item-btn btn">Записатись</a>
+               </div>
+
+               <div class="service__item">
+                  <div class="service__item-title">Ортопедія та травматологія</div>
+                  <div class="service__item-text">Лікування захворювань опорно рухового апарату</div>
+                  <div class="service__item-price">від 750 грн</div>
+                  <a href="#form" class="service__item-btn btn">Записатись</a>
+               </div>
+
+               <div class="service__item">
+                  <div class="service__item-title">Чіпування</div>
+                  <div class="service__item-text">Швидка та безболісна імплантація мікрочіпу з інформацією про тварину
+                  </div>
+                  <div class="service__item-price">від 900 грн</div>
+                  <a href="#form" class="service__item-btn btn">Записатись</a>
+               </div>
+
+               <div class="service__item">
+                  <div class="service__item-title">Всі послуги</div>
+                  <div class="service__item-text">Маємо великий перелік послуг які можуть зацікавити вас та ваших
+                     улюбленців</div>
+                  <div class="service__item-price">Доступні ціни та висока якість</div>
+                  <a href="#form" class="service__item-btn btn">Дивитись всі</a>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+   <div class="clinik" id="clinik">
+      <div class="container">
+         <div class="clinik__title title">Наша клініка</div>
+         <div class="clinik__inner">
+
+            <div class="clinik__content">
+               <img src="img/clinik/1.webp" alt="" class="clinik__img">
+               <div class="clinik__text">
+                  <div class="clinik__tit">Сучасне обладнання</div>
+                  <div class="clinik__subtit">Технічне оснащення нашої клініки дозволяє проводити різноманітні
+                     дослідження від аналізу крові до УЗД. Рентген кабінет нашої клініи пройшов державну сертифікацію,
+                     відповідає усім стандартам галузі, завдяки чому результати наших дослідженнеть приймаються як
+                     офіційні у будь-яких племінних організаціях та інших сферах.</div>
+               </div>
+            </div>
+
+            <div class="clinik__content">
+
+               <div class="clinik__text">
+                  <div class="clinik__tit">Наша спеціалізація</div>
+                  <div class="clinik__subtit">Ми спеціалізуємося у наданні послуг з діагностики, лікування та
+                     профілактики хвороб у продуктивних та дрібних домашніх тваринг,забеспечуємо лікування у режимі
+                     стаціонару, а також пропонуємо послуги тимчасового утримання тварин, оздоровлення та догляду,
+                     консультуємо щодо утримання та виховання домашніх тварин.</div>
+               </div>
+               <img src="img/clinik/3.webp" alt="" class="clinik__img">
+            </div>
+
+            <div class="clinik__content">
+               <img src="img/clinik/4.webp" alt="" class="clinik__img">
+               <div class="clinik__text">
+                  <div class="clinik__tit">Наша гордість</div>
+                  <div class="clinik__subtit">Технічне оснащення нашої клініки дозволяє проводити різноманітні
+                     дослідження від аналізу крові до УЗД. Рентген кабінет нашої клініи пройшов державну сертифікацію,
+                     відповідає усім стандартам галузі, завдяки чому результати наших дослідженнеть приймаються як
+                     офіційні у будь-яких племінних організаціях та інших сферах.</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="doctor" id="doctor">
+      <div class="container">
+         <div class="doctor__title title">Наші спеціалісти</div>
+         <div class="doctor__inner">
+
+            <div class="doctor__item">
+               <div class="doctor__content">
+                  <img class="doctor__img" src="img/doctor/1.png" alt="">
+                  <div class="doctor__text">
+                     <div class="doctor__tit">Олександра Мельничук</div>
+                     <p class="doctor__txt">Головний ліка, терапевт</p>
+                  </div>
+               </div>
+
+               <div class="doctor__content">
+                  <div class="doctor__text">
+                     <img class="doctor__img" src="img/doctor/2.png" alt="">
+                     <div class="doctor__tit">Олена Немирова</div>
+                     <p class="doctor__txt">Кардіолог</p>
+
+                  </div>
+               </div>
+
+               <div class="doctor__content">
+                  <div class="doctor__text">
+                     <img class="doctor__img" src="img/doctor/5.png" alt="">
+                     <div class="doctor__tit">Вікторія Нестерчук</div>
+                     <p class="doctor__txt">Офтальмолог</p>
+
+                  </div>
+               </div>
+
+               <div class="doctor__content">
+                  <div class="doctor__text">
+                     <img class="doctor__img" src="img/doctor/6.png" alt="">
+                     <div class="doctor__tit">Ніна Бусел</div>
+                     <p class="doctor__txt">Гастроентеролог</p>
+
+                  </div>
+               </div>
+            </div>
+
+            <div class="doctor__item">
+               <div class="doctor__content">
+                  <img class="doctor__img" src="img/doctor/3.png" alt="">
+                  <div class="doctor__text">
+                     <div class="doctor__tit">Ігор Темников</div>
+                     <p class="doctor__txt">Хірург, анастезіолог</p>
+                  </div>
+               </div>
+
+               <div class="doctor__content">
+                  <div class="doctor__text">
+                     <img class="doctor__img" src="img/doctor/4.png" alt="">
+                     <div class="doctor__tit">Марина Георгіївна</div>
+                     <p class="doctor__txt">Стоматолог</p>
+
+                  </div>
+               </div>
+
+               <div class="doctor__content">
+                  <div class="doctor__text">
+                     <img class="doctor__img" src="img/doctor/7.png" alt="">
+                     <div class="doctor__tit">Студенюк Анна</div>
+                     <p class="doctor__txt">Невролог</p>
+
+                  </div>
+               </div>
+
+
+               <div class="doctor__content">
+                  <div class="doctor__text">
+                     <img class="doctor__img" src="img/doctor/8.png" alt="">
+                     <div class="doctor__tit">Людмила Безпалова</div>
+                     <p class="doctor__txt">Лаборант, рентгенолог</p>
+
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+   </div>
+
+   <div class="acordion" id="question">
+      <div class="container">
+         <div class="acordion__title title">Часті запитання</div>
+         <div class="accordion-container">
+            <div class="ac">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">Як брати аналізи у дуже активної або лякливої
+                     собаки?</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">Ми за людське відношення до всіх тварин, тому використовуємо спеціальні фіксатори,
+                     щоб не травмувати тварину. А команда асистентів лікарів зможе взяти усі необхідні аналізи
+                     максимально безболісно</p>
+               </div>
+            </div>
+
+            <div class="ac">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">Як дізнатись результати діагностики? Чи потрібно приїжати в
+                     клініку повторно?</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">Ми висилаємо всі результати Вам на електронну пошту, також прикріплюємо до медичної
+                     карти вашого улюбленця</p>
+               </div>
+            </div>
+
+            <div class="ac">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">Як часто потрібно відвідувати ветеринарного лікаря?</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">Перший раз відвідати лікаря слід відразу після придбання цуценя, кошеня або
+                     дорослої особини. Ветеринарний лікар вам розповість все про правильне годування, утримання та
+                     догляд за твариною. Також він огляне собаку чи кішку, зробить висновки, і, можливо, призначить
+                     якісь додаткові дослідження. Не обмежуйтесь консультацією заводчика, відвідайте ветеринарного
+                     лікаря, тому що саме він надаватиме вам ветеринарну допомогу у непередбачених випадках. За перших
+                     ознак нездужання тварини звертайтеся до клініки за наданням лікувальної допомоги! Пам'ятайте:
+                     профілактика захворювання найчастіше в десятки разів дешевша, ніж його лікування!</p>
+               </div>
+            </div>
+
+            <div class="ac">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">У якому віці потрібно починати щеплення?</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">Цуценята отримують імунітет під час годування молоком матері, який слабшає протягом
+                     перших кількох місяців життя. Щоб захистити цуценят у цей критичний період існує серія вакцин, які
+                     робляться кожні 3-4 тижні, поки шанс захворіти на інфекційні захворювання мінімальний. </p>
+               </div>
+            </div>
+
+            <div class="ac">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">Як правильно виміряти температуру тіла у тварини?</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">У собак і кішок, а також у інших, нині модних, декоративних тварин, температуру
+                     тіла вимірюють ректально, тобто. у прямій кишці. Градусник можна використовувати звичайнісінький
+                     побутовий ртутний або електронний. Але електронні градусники не всі дають правильні свідчення з
+                     малою похибкою. Тому ми вважаємо за краще перевірені роками ртутні градусники.
+                     Перед вимірюванням температури термометр обов'язково необхідно промити в теплій воді, по можливості
+                     протерти спиртом або хоча б горілкою, і змастити будь-яким маслом, будь-яким - вазеліновим,
+                     соняшниковим або навіть вершковим. Для отримання точних та достовірних результатів градусник
+                     необхідно тримати у прямій кишці не менше 3-4 хвилин. Краще провести серію вимірів (як правило, 3
+                     виміри температури по 3-4 хвилини) і вибрати середнє значення.
+                     Нормальна температура тіла здорового собаки в межах 37,5 – 39 градусів Цельсія.
+                     Температура тіла здорової кішки в межах 38,0 – 39,2 градуса.
+                     Температура тіла кролика в межах 38,5 – 39,5 градусів.
+                     Показники температури тіла у тварин можуть змінюватись в залежності від віку, фізіологічного стану
+                     і навіть породи тварини. Тому зазначені тут норми є відносними. Якщо Вас турбує стан здоров'я
+                     вихованця – не тягніть, зверніться до ветеринарного лікаря.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+      <div class="formcont" id="form">
+         <div class="container">
+
+            <div class="formcont__inner">
+               <div class="formcont__text">
+                  <div class="formcont__top">Запис на прийом</div>
+                  <div class="formcont__title">Запишемо до лікаря на зручний для вас час</div>
+                  <div class="formcont__subtitle">Адміністратор зателефонує вам протягом 20 хвилин</div>
+               </div>
+
+
+               <div class="formcont__img">
+                  <img src="img/formgb.png" alt="">
+               </div>
+
+               <div class="forma">
+                  <div class="container">
+
+                     <form name="test" action="#" class="form" method="post" enctype="multipart/form-data">
+
+                        <label class="form__label">
+                           <input class="input input-name" type="text" data-validate-field="name" name="Ім'я"
+                              placeholder="Введіть ім'я">
+                        </label>
+
+                        <label class="form__label">
+                           <input type="mail" class="input input-mail" data-validate-field="email" name="Email"
+                              placeholder="Введіть email">
+                        </label>
+
+                        <label class="form__label">
+                           <input class="input input-tel" type="tel" data-validate-field="tel" name="Телефон"
+                              placeholder="Введіть телефон">
+                        </label>
+                        <button class="button btn">Відправити</button>
+                     </form>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+
+   <div class="contact" id="contact">
+      <div class="container">
+         <div class="contact__title title">Контакти</div>
+         <div class="contact__inner">
+            <div class="contact__text">
+               <a href="" class="contact__adress"><img src="img/contact/map.svg" alt="">
+                  <p>м.Вінниця вул. Вінницька 1</p>
+               </a>
+               <a href="tel: 38067 00 00 000" class="contact__tell"><img src="img/contact/tel.svg" alt="">
+                  <p>+38 (067) 000 00 00</p>
+               </a>
+               <a href="" class="contact__mail"><img src="img/contact/mail.svg" alt="">
+                  <p>myemail@gmail.com</p>
+               </a>
+            </div>
+            <div class="contact__img"><img src="img/contact/contacts.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__menu">
+            <a href="#" class="footer__logo "><img src="img/header/logo.svg" alt="">
+               <p class="footer__logo-text"> Dog Doctor</p>
+            </a>
+            <nav class="footer__men">
+               <ul class="footer__list ">
+                  <li class="footer__item"><a href="#service" class="footer__link">Послуги</a></li>
+                  <li class="footer__item"><a href="#clinik" class="footer__link">Клініка</a></li>
+                  <li class="footer__item"><a href="#doctor" class="footer__link">Лікарі</a></li>
+                  <li class="footer__item"><a href="#question" class="footer__link">Питання</a></li>
+                  <li class="footer__item"><a href="#contact" class="footer__link">Контакти</a></li>
+               </ul>
+            </nav>
+            <a href="#" class="footer__tel">
+               Політика конфіденційності
+            </a>
+         </div>
+   </footer>
+
+
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="js/jquery.fancybox.min.js"></script>
+   <script src="js/inputmask.min.js"></script>
+   <script src="js/just-validate.min.js"></script>
+   <script src="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+
+</html>
